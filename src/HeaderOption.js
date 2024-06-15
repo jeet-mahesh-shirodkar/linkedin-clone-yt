@@ -1,0 +1,13 @@
+import React from 'react';
+import "./HeaderOption.css";
+
+function HeaderOption({title,Icon}) {
+  return (
+    <div className='headerOption'>
+        {Icon && <Icon className = "headerOption__Icon"/>}
+        <h3 className='headerOption__title'>{title}</h3>
+    </div>
+  )
+}
+
+export default HeaderOption;
