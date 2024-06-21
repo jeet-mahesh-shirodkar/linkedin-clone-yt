@@ -6,6 +6,7 @@ import ImageIcon from '@mui/icons-material/Image';
 import SubscriptionsIcon from '@mui/icons-material/Subscriptions';
 import EventNoteIcon from '@mui/icons-material/EventNote';
 import CalendarViewDayIcon from '@mui/icons-material/CalendarViewDay';
+import Post from './Posts';
 
 
 function Feed() {
@@ -30,6 +31,8 @@ function Feed() {
                               color={"#7FC15E"}/>
             </div>
         </div>
+        
+        <Post name={'Jeet'} description={'This is test'} messages={'This is a test message'}/>
     </div>
   )
 }
