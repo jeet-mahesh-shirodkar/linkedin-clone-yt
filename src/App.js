@@ -16,6 +16,7 @@ function App() {
         {/*Feed*/}
           <Feed/>
         {/*Widgets*/}
+        <Widgets/>
       </div>
     </div>
   );
