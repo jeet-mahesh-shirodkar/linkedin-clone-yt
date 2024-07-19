@@ -8,7 +8,7 @@ import 'firebase/compat/auth';
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBPzNFZkrAWIXGeIkkRi1BJo5v-KRHNYPY",
+    apiKey: "",
     authDomain: "linkdin-yt-clone-jeet.firebaseapp.com",
     projectId: "linkdin-yt-clone-jeet",
     storageBucket: "linkdin-yt-clone-jeet.appspot.com",
